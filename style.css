@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+header
+{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background: #ff0157;
+    justify-content: space-around;
+    align-items: center;
+}
+header .logo
+{
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.navbar ul
+{
+    display: flex;
+   
+}
+.navbar ul li
+{
+    list-style: none;
+    padding: 12px 16px;
+
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 8px 12px;
+    
+}
+.navbar ul li a:hover
+{
+    background: #000;
+    letter-spacing: 3px;
+    transition: 0.4s;
+}
+.banner 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../image/bg.jpg);
+    background-size: cover;
+}
+.box
+{
+    text-align: center;
+}
+.box h2
+
+{
+    color: #fff;
+    font-size: 4em;
+    text-transform: uppercase;   
+    font-weight: 700;
+}
+.box p
+{
+    color: #fff;
+}
+.btn
+{
+    background: #ff0157;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.3s;
+
+}
+.btn:hover 
+{
+    letter-spacing: 6px;
+}
+
+/*  about us section       */
+
+section .boss
+{
+    padding: 100px;
+  
+}
+.boss
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.boss .box1
+{
+  
+    width: 50%;
+    height: auto;
+
+    
+}
+.heading
+{
+    color: #ff0157;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+.boss .images
+{
+   
+    width: 30%;
+    height: auto;
+    
+    
+  
+    
+}
+.boss .images img
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*  -----------   menu section  ---------------------   */
+
+
+section .menu 
+{
+    padding top: 100px;
+}
+.box2
+{
+    width: 100%;
+    text-align: center;
+}
+.menudata
+{
+    border: 1px solid #fff;
+    box-shadow: 0 40px 50px rgb(100, 78, 78);
+}
+.content
+{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   justify-content: space-around;
+   grid-row-gap: 50px;
+   grid-column-gap: 10px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+ 
+}
+
+.menupic
+{
+    width: 100%;
+}
+.menupic img
+{
+    width: 100%;
+    transition: 0.5s;
+}
+.menupic img:hover
+{
+    transform: scale(1.1);
+}
+
+.menuname 
+{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ff0157;
+    color: #fff;
+    margin-top: 5px;
+}
+.button
+{
+    width: 100%;
+    text-align: center;
+}
+/*   -------------------expert menu--------------------*/
+.box3
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.expertdata
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    justify-content: space-around;
+    grid-gap: 20px;
+
+}
+.expertpic
+{
+    width: 100%;
+    height: 300px;
+}
+.expertpic img
+{
+    width: 100%;
+    height: 300px;
+}
+/*----------------------testimonial------------------*/
+
+.box4
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.tesitidata 
+{
+    background: url(../image/bg2.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.testor
+{
+    width: 250px;
+    height: 320px;
+    background: #fff;
+    border-radius: 25px;
+    margin: 30px;
+  
+}
+.test1
+{
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 77px;
+    margin-bottom: 25px;
+    height: 100px;
+
+
+
+}
+.test1 img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+.testpic
+{
+    text-align: center;
+}
+.testpic h3
+{
+    color: #ff0157;
+    margin-top: 18px;
+    text-transform: uppercase;
+    font-weight: light;
+}
+
+/*-------------------contact us------------------------*/
+
+.box5
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.form
+{
+    width: 400px;
+    height: auto;
+    border: 1px solid #fff;
+    margin: 50px auto;
+    background-color: #eedee3;
+    border-radius: 10px;
+    box-shadow: 0 40px 50px rgb(100, 78, 78);
+
+}
+.form1
+{
+    background: #fff;
+    border: none;
+    display: block;
+    margin: 20px auto 0px;
+    padding: 18px;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+    color: #000;
+    border-radius: 25px;
+}
+.form2
+{
+    background: #fff;
+    border: none;
+    display: block;
+    margin: 5px auto;
+    padding: 18px;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+    color: #000;
+    border-radius: 25px;
+}
+.form3
+{
+    background: #fff;
+    border: none;
+    display: block;
+    margin: 5px auto;
+    padding: 18px;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+    color:#000;
+    border-radius: 25px;
+}
+.form4
+{
+    background: #ff0157;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    padding: 18px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    width: 180px;
+    color: #000;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.form1:focus
+{
+    width: 320px;
+    transition: 0.5s;
+}
+.form2:focus
+{
+    width: 320px;
+    transition: 0.5s;
+}
+.form3:focus
+{
+    width: 320px;
+    transition: 0.5s;
+}
+.form4:focus
+{
+    width: 240px;
+    transition: 0.5s;
+}
+
+
+/*      ----------------------media query----------------*/
+
+
+@media screen and (max-width: 991px )
+{
+    .box h2 
+    {
+        font-size: 3em;
+        color: #ff0157;
+    }
+    header
+    {
+        position: relative;
+        flex-direction: column;
+    }
+    .navbar ul
+    {
+        flex-direction: column;
+    }
+    .navbar ul li 
+    {
+        text-align: center;
+    }
+    header .logo
+    {
+        font-size: 25px;
+    }
+    header
+    {
+        height: auto;
+    }
+    .boss
+   {
+    flex-direction: column;
+   }
+  
+   .boss .images
+   {
+       width: 100%;
+   }
+   .boss .images img 
+   {
+       width: 100%;
+   }
+   .boss .box1
+   {
+       width: 100%;
+   }
+   section .boss
+   {
+       padding: 0px;
+       
+   }
+   .heading
+   {
+       text-align: center;
+       margin-top: 25px;
+   }
+   .content
+   {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .expertdata
+   {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .tesitidata 
+   {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .form
+   {
+    width: 275px;
+   }
+   .form1, .form2,.form3
+   {
+    width: 200px;
+   }
+   .form4
+   {
+       width: 120px;
+   }
+   .form1:focus
+   {
+    width: 230px;
+    transition: 0.5s;
+   }
+   .form2:focus
+   {
+    width: 230px;
+    transition: 0.5s;
+   }
+   .form3:focus
+   {
+    width: 230px;
+    transition: 0.5s;
+   }
+   .form4:focus
+   {
+    width: 180px;
+    transition: 0.5s;
+   }
+
+   
+
+ 
+
+}
+
